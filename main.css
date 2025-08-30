@@ -1,0 +1,183 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-size: 20px; */
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-size: 16px;
+background-color: #e7e6e6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.top-right-nav ul {
+    display: flex;
+
+}
+
+.top-right-nav li {
+    padding-right: 20px;
+    list-style: none;
+}
+
+.top-right-nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-right-nav ul li span {
+    color: red;
+}
+
+.bottom-right-nav .icon a {
+    text-decoration: none;
+    color: black;
+}
+.bottom-right-nav .icon img{
+    width: 20px;
+    border-radius: 30px;
+}
+
+.bottom-right-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottom-right-nav div {
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+/*  Second Navvv */
+
+.bottom-nav-order ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-nav-order ul li {
+    border: 2px solid black;
+    border-bottom: none;
+    text-align: center;
+    list-style: none;
+    padding: 20px;
+}
+
+.bottom-nav-order ul .Last {
+    width: 40%;
+    background-color: red;
+    border-radius: 10px;
+    transition: all 0.3s;
+    color: white;
+
+}
+
+.bottom-nav-order ul .Last:hover {
+    box-shadow: 10px 9px 100px rgba(0, 10, 10, 5);
+    /* shadow effect */
+    transform: scale(1.1);
+    /* make it bigger */
+}
+
+.bottom-nav-order ul .deals {
+    width: 20%;
+    background-color: rgb(241, 179, 6);
+}
+
+
+.bottom-nav-order ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    position: relative;
+      text-transform: uppercase;
+
+}
+.banner-list a span{
+    border-bottom: 3px #c8112f solid ;
+    z-index: 5;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+.banner-list {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    opacity: 80%;
+    bottom: 0;
+}
+
+.banner-list ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-list a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding: 20px 0;
+}
+.cards-container{
+    /* background-color: gray; */
+    display: flex;
+    padding: 30px 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    /* border: 4px solid black; */
+    display: flex;
+    border-radius: 9px;
+    margin: 10px 5px;
+    background-color: white;
+    padding: 40px 20px;
+    justify-content: space-around;
+}
+.card img {
+    width: 200px;
+    height: 200px;
+}
+.card .price{
+    text-align: center;
+    font-size: 2rem;
+}
+.card-right-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+.card-left-side{
+    padding-right:20px ;
+}
+.mid-right select{
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+.bottom-right  #cust{
+background-color: #827d7d;
+    padding: 10px 15px;
+    border-radius: 7px;
+
+}
+.bottom-right  #add{
+background-color: #c8112f;
+    padding: 15px 20px;
+    border-radius: 7px;
+
+}
